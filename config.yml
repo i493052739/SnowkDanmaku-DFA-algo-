@@ -1,0 +1,37 @@
+##############################################
+#                                            #
+#       SnowkDanmaku - v1.0                  #
+#          add-on plugin to the VexView      #
+#          all-version supported!            #
+#                  - By: Bear                #
+#                                            #
+##############################################
+
+# The banned words you want to add
+# 你可自定义新的敏感词列表
+add:
+  - '阿伟死了'
+
+# The banned words you want to delete from the default list
+# 你也可从默认的列表中删除你不需要的敏感词
+remove:
+  - 'fxx'
+
+# enable chat cooldown or not (only for danmaku system)
+# 是否开启弹幕冷却系统
+cooldown: true
+# 冷却秒数
+# chat cooldown in sec
+cd_timeSec: 5 
+
+# Messages
+Msg_StartToSend: "&b[Snowk&3弹幕系统&b]&a您可以在此输入信息来发送弹幕！ &e也可输入 &ccancel &e来取消发送"
+Msg_CannotSend: "&b[Snowk&3弹幕系统&b]&c发送者必须为玩家，后台请直接使用flowview指令发送弹幕"
+Msg_Reject: "&b[Snowk&3弹幕系统&b]&c弹幕包含敏感词已被撤回！"
+Msg_Sent: "&b[Snowk&3弹幕系统&b]&a弹幕已发送！"
+Msg_Cancel: "&b[Snowk&3弹幕系统&b]&a已取消弹幕发送"
+Msg_Reload: "&b[Snowk&3弹幕系统&b]&a配置文件已重载"
+Msg_NoPerm: "&b[Snowk&3弹幕系统&b]&c执行失败，尚未找到相关权限"
+Msg_Cd: "&b[Snowk&3弹幕系统&b]&c冷却时间还未结束，剩余&a {s} &c秒"
+
+

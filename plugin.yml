@@ -1,0 +1,8 @@
+name: SnowkDanmaku
+main: com.snowk.snowkDanmaku.SnowkDanmaku
+version: 1.0
+api-version: 1.12
+
+commands: 
+  fadanmu:
+    aliases: [fdm, fadm]
